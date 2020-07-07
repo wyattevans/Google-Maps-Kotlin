@@ -11,6 +11,7 @@ import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
+    private val simpleTag = this::class.java.simpleName
 
     private lateinit var mMap: GoogleMap
 
