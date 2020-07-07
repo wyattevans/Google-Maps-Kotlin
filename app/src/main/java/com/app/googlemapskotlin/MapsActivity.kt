@@ -19,7 +19,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_maps)
-        Log.d(simpleTag, "Maps Activity loaded.");
+        Log.d(simpleTag, getString(R.string.maps_activity_loaded));
 
         val mapFragment = supportFragmentManager
                 .findFragmentById(R.id.map) as SupportMapFragment
