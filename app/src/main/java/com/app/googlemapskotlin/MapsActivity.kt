@@ -28,7 +28,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
-        Log.d(simpleTag, "onMapReady hit.");
+        Log.d(simpleTag, getString(R.string.on_map_ready_hit));
 
         val sydney = LatLng(-34.0, 151.0)
         mMap.addMarker(MarkerOptions().position(sydney).title(getString(R.string.marker_in_sydney)))
