@@ -3,4 +3,5 @@
     <string name="app_name">Google Maps Kotlin</string>
     <string name="title_activity_maps">Map</string>
     <string name="maps_activity_loaded">Maps Activity loaded.</string>
+    <string name="marker_in_sydney">Marker in Sydney</string>
 </resources>
